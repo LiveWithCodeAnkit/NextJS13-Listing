@@ -10,9 +10,7 @@ const Navbar = () => {
           <button className="bg-slate-700 p-2">Start your free trial</button>
         </div>
       </div>
-      <div className="bg-gray-800 p-5 text-white">
-        <h1 className="text-3xl font-semibold">Popular Titles</h1>
-      </div>
+     
     </>
   );
 };
