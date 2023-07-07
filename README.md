@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Web App
+
+This is a web application built with Next.js that fetches data from a JSON file using Redux. The app provides a user interface for displaying a collection of series and movies. It includes various features and functionalities to enhance the user experience.
+
+## Features
+
+- **Data Filtering and Sorting:** The app filters the entries based on the release year attribute, only displaying those with a value greater than or equal to 2010. The filtered entries are sorted in ascending alphanumeric order based on the title attribute.
+
+- **Pagination:** The app includes pagination to display a limited number of entries per page, improving performance and user experience.
+
+- **Hover Animations:** On hover, the app provides an image zoom effect for enhanced visibility. The card box border color changes, providing a visual cue to the user.
+
+- **Year Label:** Each entry is accompanied by a label that displays the year of the series or movie, making it easy for users to identify the release year.
+
+- **Dynamic Title Component and Sticky Title Bar:** The title component in the app is dynamic, adapting based on the selected entry or page. The title bar remains sticky at the top of the page, ensuring it is always visible to the user.
+
+- **Responsive Design:** The web app has a responsive design, ensuring optimal viewing and usability across different devices and screen sizes.
 
 ## Getting Started
 
-First, run the development server:
+Follow the instructions below to get a copy of the project up and running on your local machine.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js (version X.X.X)
+- npm (version X.X.X)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   git clone https://github.com/your-username/nextjs-web-app.git
